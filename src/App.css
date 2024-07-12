@@ -1,0 +1,46 @@
+.container {
+  flex: 1;
+  padding: 20px;
+}
+
+.filter-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.chart-title {
+  text-align: center;
+  color: darkseagreen;
+}
+
+.chart-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.no-data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 1.5em;
+  color: #999;
+}
+
+.footer {
+  background-color: #343a40;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.card {
+  margin-bottom: 20px;
+}
